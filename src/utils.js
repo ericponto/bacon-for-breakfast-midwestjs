@@ -1,3 +1,3 @@
-var sum = (a, b) => a + b;
+export var sum = (a, b) => a + b;
 
-var isOdd = x => x % 2;
+export var isOdd = x => x % 2;

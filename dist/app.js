@@ -4903,12 +4903,17 @@ exports["default"] = _baconjs2["default"].combineWith(view, results, data);
 },{"./events":5,"baconjs":1,"mithril":2}],9:[function(require,module,exports){
 "use strict";
 
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
 var sum = function sum(a, b) {
   return a + b;
 };
 
+exports.sum = sum;
 var isOdd = function isOdd(x) {
   return x % 2;
 };
+exports.isOdd = isOdd;
 
 },{}]},{},[3]);
